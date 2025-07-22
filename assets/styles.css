@@ -1,33 +1,23 @@
 /* Custom styles for skill icons */
 .skill-icon {
-  width: 48px;
-  height: 48px;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition: transform 0.3s ease, color 0.3s ease;
   cursor: pointer;
+  display: inline-block;
 }
 
 .skill-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   filter: brightness(1.2);
 }
 
-/* Icon colors */
-.icon-html5 { fill: #E34F26; }
-.icon-css3 { fill: #1572B6; }
-.icon-javascript { fill: #F7DF1E; }
-.icon-php { fill: #777BB4; }
-.icon-python { fill: #3776AB; }
-.icon-laravel { fill: #FF2D20; }
-.icon-nodejs { fill: #339933; }
-.icon-bootstrap { fill: #7952B3; }
-.icon-mysql { fill: #4479A1; }
-.icon-docker { fill: #2496ED; }
-.icon-nginx { fill: #009639; }
-.icon-git { fill: #F05032; }
-.icon-github { fill: #181717; }
-.icon-vscode { fill: #007ACC; }
-.icon-bash { fill: #4EAA25; }
+/* Contact icons */
+.contact-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
 
-/* Dark theme adjustments */
-.dark .icon-github { fill: #ffffff; }
-.dark .icon-bash { fill: #4EAA25; }
+.contact-icon:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}

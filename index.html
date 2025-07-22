@@ -7,7 +7,7 @@
   <title>Kittisak's Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="assets/styles.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
 </head>
 
 <body class="bg-black text-white font-sans">
@@ -22,7 +22,7 @@
   </nav>
 
   <section id="home" class="flex flex-col md:flex-row items-center justify-center mt-12 px-6">
-    <img src="/mnt/data/1.png" alt="Profile"
+    <img src="assets/images/profile.jpg" alt="Kittisak Ananpreechakun Profile"
       class="w-64 h-64 object-cover rounded-xl border-2 border-gray-600 mb-6 md:mb-0 md:mr-10">
     <div>
       <h2 class="text-4xl font-bold mb-4">About Me</h2>
@@ -43,42 +43,52 @@
 
   <section id="skills" class="mt-16 px-6">
     <h3 class="text-2xl font-semibold mb-4">These are my skills.</h3>
-    <div class="flex flex-wrap gap-4">
+    <div class="flex flex-wrap gap-4 text-4xl">
       <!-- Programming Languages -->
-      <img src="assets/icons/html5.svg" alt="HTML5" class="skill-icon icon-html5" title="HTML5">
-      <img src="assets/icons/css3.svg" alt="CSS3" class="skill-icon icon-css3" title="CSS3">
-      <img src="assets/icons/javascript.svg" alt="JavaScript" class="skill-icon icon-javascript" title="JavaScript">
-      <img src="assets/icons/php.svg" alt="PHP" class="skill-icon icon-php" title="PHP">
-      <img src="assets/icons/python.svg" alt="Python" class="skill-icon icon-python" title="Python">
+      <i class="fab fa-html5 text-orange-500 skill-icon" title="HTML5"></i>
+      <i class="fab fa-css3-alt text-blue-500 skill-icon" title="CSS3"></i>
+      <i class="fab fa-js-square text-yellow-400 skill-icon" title="JavaScript"></i>
+      <i class="fab fa-php text-indigo-500 skill-icon" title="PHP"></i>
+      <i class="fab fa-python text-blue-400 skill-icon" title="Python"></i>
 
       <!-- Frameworks & Tools -->
-      <img src="assets/icons/laravel.svg" alt="Laravel" class="skill-icon icon-laravel" title="Laravel">
-      <img src="assets/icons/nodedotjs.svg" alt="Node.js" class="skill-icon icon-nodejs" title="Node.js">
-      <img src="assets/icons/bootstrap.svg" alt="Bootstrap" class="skill-icon icon-bootstrap" title="Bootstrap">
+      <i class="fab fa-laravel text-red-500 skill-icon" title="Laravel"></i>
+      <i class="fab fa-node-js text-green-500 skill-icon" title="Node.js"></i>
+      <i class="fab fa-bootstrap text-purple-500 skill-icon" title="Bootstrap"></i>
 
       <!-- Databases -->
-      <img src="assets/icons/mysql.svg" alt="MySQL" class="skill-icon icon-mysql" title="MySQL">
+      <i class="fas fa-database text-yellow-200 skill-icon" title="MySQL"></i>
 
       <!-- DevOps & Tools -->
-      <img src="assets/icons/docker.svg" alt="Docker" class="skill-icon icon-docker" title="Docker">
-      <img src="assets/icons/nginx.svg" alt="Nginx" class="skill-icon icon-nginx" title="Nginx">
-      <img src="assets/icons/git.svg" alt="Git" class="skill-icon icon-git" title="Git">
-      <img src="assets/icons/github.svg" alt="GitHub" class="skill-icon icon-github" title="GitHub">
+      <i class="fab fa-docker text-blue-300 skill-icon" title="Docker"></i>
+      <i class="fab fa-nginx text-green-400 skill-icon" title="Nginx"></i>
+      <i class="fab fa-git-alt text-orange-400 skill-icon" title="Git"></i>
+      <i class="fab fa-github text-gray-300 skill-icon" title="GitHub"></i>
 
       <!-- Development Tools -->
-      <img src="assets/icons/visualstudiocode.svg" alt="Visual Studio Code" class="skill-icon icon-vscode" title="Visual Studio Code">
-      <img src="assets/icons/gnubash.svg" alt="Bash/Terminal" class="skill-icon icon-bash" title="Bash/Terminal">
+      <i class="fas fa-code text-gray-400 skill-icon" title="Visual Studio Code"></i>
+      <i class="fas fa-terminal text-green-300 skill-icon" title="Command Line"></i>
     </div>
   </section>
 
   <section id="contact" class="mt-16 px-6">
     <h3 class="text-2xl font-semibold mb-4">Contact Me.</h3>
-    <div class="flex space-x-6 text-2xl">
-      <a href="https://www.instagram.com" class="text-pink-400"><i class="fab fa-instagram"></i></a>
-      <a href="https://github.com/kititiro" class="text-white"><i class="fab fa-github"></i></a>
-      <a href="mailto:noptpono@gmail.com" class="text-blue-400"><i class="fas fa-envelope"></i></a>
-      <a href="tel:0615754606" class="text-green-400"><i class="fas fa-phone"></i></a>
-      <a href="https://heylink.me/noptpono/" class="text-gray-400"><i class="fas fa-link"></i></a>
+    <div class="flex space-x-6 text-3xl">
+      <a href="https://www.instagram.com" class="text-pink-400 contact-icon" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://github.com/kititiro" class="text-white contact-icon" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:noptpono@gmail.com" class="text-blue-400 contact-icon" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="tel:0615754606" class="text-green-400 contact-icon" title="Phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="https://heylink.me/noptpono/" class="text-gray-400 contact-icon" title="Links">
+        <i class="fas fa-link"></i>
+      </a>
     </div>
   </section>
 </body>
